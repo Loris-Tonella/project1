@@ -1,0 +1,141 @@
+*{
+    font-family: "Syncopate", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#305B8C;
+    padding-top: 40px;
+}
+
+nav{
+    background-color: #456594;
+    position: fixed;
+    left: 50%;
+    width: 75%
+    transform: translateX(-50%);
+    padding-top: 40px;
+    border-radius: 25px;
+    z-index: 1000;
+
+}
+.nav-links{
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+a{
+    font-weight: bold;
+    font-size: 13px;
+    color: #8FB6BE;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.specimen-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.specimen-section {
+    position: relative; 
+    padding: 100px 0;
+}
+
+.title-back{
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+}
+
+.title{
+   color: #B4BDDE;
+   font-size: 135px;
+   font-weight: bold; 
+   margin-top: 400px;
+   margin-bottom: 400px;
+}
+.main-title{
+    color: rgba(32,79,127,40);
+    font-size: 300px;
+    opacity: 40%;
+    margin: 0;
+}
+.about-background{
+   font-weight: bold;
+   font-size: 240px;
+   opacity: 40%;
+   color: rgba(32,79,127,40); 
+}
+.about-text{
+    color: white;
+    font-size: 18px;
+}
+.display-sub{
+    font-weight: bold;
+    font-size: 200px;
+    opacity: 40%;
+    color: rgba(32,79,127,40); 
+}
+.display-vertical{
+    font-size: 100px;
+    color: #5AA1C7;
+}
+.display-words-list{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.body-copy{
+    font-weight: bold;
+    font-size: 240px;
+    opacity: 40%;
+    color: rgba(32,79,127,40); 
+}
+.body-section-title{
+    font-size: 50px;
+    color: white;
+}
+.paragraphs{
+    color: white;
+    font-size: 18px;
+}
+.glyphs-display-wrapper{
+    font-size: 36px;
+    color: white;
+}
+.bg-watermark-char{
+    font-weight: bold;
+    font-size: 240px;
+    opacity: 40%;
+    color: rgba(32,79,127,40);
+}
+.bg-watermark-events-vertical{
+    font-weight: bold;
+    font-size: 200px;
+    opacity: 40%;
+    color: rgba(32,79,127,40);
+}
+.events-cards-stack{
+    font-size: 45px;
+    color: white;
+}
+.event-time-location{
+    font-weight: bold;
+    font-size: 22.5px;
+}
+.event-desc{
+    font-size:22.5px ;
+}
+.section-divider{
+    width: 950px;
+}
